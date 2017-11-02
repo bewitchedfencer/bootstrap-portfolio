@@ -1,4 +1,99 @@
 
 /* Google Font families. Acme is for titles/headings */
-font-family: 'Acme', sans-serif;
-font-family: 'Cairo', sans-serif;
+/* font-family: 'Acme', sans-serif; */
+/* font-family: 'Cairo', sans-serif; */
+
+body{
+    background-image: url(assets/images/subtle_white_feathers.png);    
+}
+
+.container{
+    padding:100px;
+}
+
+p{
+    font-family:'Cairo', sans-serif; 
+    font-size:medium;   
+    padding-top:10px;
+}
+
+h1{
+    font-family:'Acme', sans-serif;
+}
+
+.navbar-right{
+    padding-right:15px;
+    font-family:'Acme', sans-serif;    
+}
+
+.langAndExperience{
+    margin-top:60px;
+    margin-left:20px;
+    background-color:rgba(147, 197, 75, .3);
+    border-radius:5%;
+    padding:25px;
+}
+
+.connectToMe{
+    margin-top:60px;
+    margin-left:5px;
+    background-color:rgba(147, 197, 75, .3);
+    border-radius:5%;
+    padding:10px;
+    padding-bottom:20px;
+}
+
+.icon{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+.aboutMe{
+    background-color:rgba(107, 76, 18, .3);
+    border-radius:5%;
+    padding:10px;
+    padding-bottom:200px;
+    margin-top:60px;
+}
+
+/* For holding portfolio images. */
+
+.container1{
+    margin-top:60px;
+    background-color: rgb(12, 12, 11);    
+}
+
+
+.portfolio-image{
+    border-radius:25%;
+}
+
+/* class for the portfolio text-boxes */
+
+.portfolio-text{
+    position:absolute;
+    font-size:20px;
+    width:80%;
+    padding:10px;
+    background-color: rgba(107, 76, 18, .8);
+    color:rgb(147, 197, 75);
+    text-align:center;
+    bottom: 5%;
+    right:10%;
+    border-radius:20%;
+}
+
+form{
+    margin-top:60px;
+    font-family:'Acme', sans-serif;
+    font-size:16px;    
+}
+
+.message{
+    height:150px;
+}
+
+.form-control{
+    margin: 10px;
+}

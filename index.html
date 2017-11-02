@@ -1,49 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Alexa Robinson Bootstrap Portfolio</title>
-        <!-- Latest compiled and minified CSS -->
-        <link href="https://fonts.googleapis.com/css?family=Acme|Cairo:400,600,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alexa Robinson Bootstrap Portfolio</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Cairo:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="fluid-container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
                 <a class="navbar-brand" href="#">Alexa Robinson</a>
-              </div>
-          
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-          </nav>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-8">
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8 aboutMe">
+                <h1 class="text-center">About Me</h1>
+                <hr>
+                <img class="img-responsive img-thumbnail center-block" src="assets/images/mypic.jpg" target="_blank" alt="Picture of Alexa Robinson in Glendalough, Ireland.">
+                <p>I attend UCF Coding Bootcamp in Orlando, FL. I have experience in education, real estate, and property management.
+                    I currently work as a tutor and administrative assistant for a commercial property manager. I volunteer
+                    as a mentor for foster children.</p>
+                <p>I know HTML, CSS, Bootstrap, and jQuery. I am learning client-side Javascript now. In addition to my web
+                    development skills, I have experience with Quickbooks and accounts payable.</p>
+                <p>I intend to move to the New York City area in May of 2018 with my cat, Catalanta.</p>
+            </div>
+            <div class="col-xs-4">
+                <div class="connectToMe text-center">
+                    <h1>Connect With Me</h1>
+                    <hr>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/in/alexa-robinson">
+                            <img class="img-responsive" src="assets/images/linkedin.png" target="_blank" alt="linkedin icon and link to profile">
+                        </a>
+                        <a href="https://github.com/bewitchedfencer">
+                            <img class="img-responsive" src="assets/images/github_icon.png" target="_blank" alt="github icon and link to profile">
+                        </a>
+                        <a href "https://stackexchange.com/users/11463720/srobinson">
+                            <img class="img-responsive" src="assets/images/stackoverflow_icon.png" target="_blank" alt="stack overflow icon and link">
+                        </a>
+                    </div>
                 </div>
-                <div class="col-xs-4">
-                    <div class="row">
-                        <div class="col-xs-12">
-                        </div>
+                <div class="row">
+                    <div class="col-xs-12 langAndExperience">
+                        <h1 class="text-center">Languages and Experience</h1>
+                        <hr>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>Media Queries</li>
+                            <li>jQuery</li>
+                            <li>Javascript</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        
-    </body>
+    </div>
+
+</body>
+
 </html>
